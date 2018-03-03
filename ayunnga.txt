@@ -1,0 +1,19 @@
+mkdir mylocalrepo
+
+cd mylocalrepo
+
+git init
+
+dir /ah
+
+git config --global user.name "maurengsalazar@gmail.com"
+
+git config --global user.name
+
+git config --global user.email maurengsalazar@gmail.com
+
+git remote addmy remoterepo https://github.com/mgsalazar/myremoterepo(LINK IN GITHUB)
+
+git add donuts.txt (yung file sa ginawang ano)
+
+git push -u myremoterepo master
